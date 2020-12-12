@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/WechatIMG29.jpeg</file>
+        <file>res/WechatIMG30.jpeg</file>
+        <file>res/WechatIMG31.jpeg</file>
+        <file>res/WechatIMG32.jpeg</file>
+        <file>res/WechatIMG33.jpeg</file>
+        <file>res/WechatIMG34.jpeg</file>
+        <file>res/WechatIMG35.jpeg</file>
+        <file>res/WechatIMG36.jpeg</file>
+        <file>res/WechatIMG37.jpeg</file>
+        <file>res/WechatIMG38.jpeg</file>
+        <file>res/WechatIMG39.jpeg</file>
+        <file>res/WechatIMG40.jpeg</file>
+        <file>res/WechatIMG41.jpeg</file>
+        <file>res/WechatIMG42.jpeg</file>
+        <file>res/WechatIMG43.jpeg</file>
+    </qresource>
+</RCC>

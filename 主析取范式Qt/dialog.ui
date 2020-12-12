@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>597</width>
+    <height>399</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>601</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>主析取范式（majordisjunctivenormal form）</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Wawati SC</family>
+      <pointsize>18</pointsize>
+      <underline>false</underline>
+     </font>
+    </property>
+   </column>
+   <item>
+    <property name="text">
+     <string>定义</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Wawati SC</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>对于给定的命题公式A（P1，P2，P3，……，Pn），如果有一个仅由最小项的析取构成</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wawati SC</family>
+      </font>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>的等值式</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wawati SC</family>
+      </font>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>求解方法</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Wawati SC</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>1.真值表法（本计算器采用的哦～）</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wawati SC</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2.等值演算法</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wawati SC</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>真值表法实例(以P-&gt;Q为例)</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>Wawati SC</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>   ———————————</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>｜P          Q          P→Q ｜</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wawati SC</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>   ———————————</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wawati SC</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>｜1           1             1  ｜</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wawati SC</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>   ———————————</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wawati SC</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>｜1           0             0  ｜</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wawati SC</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>   ———————————</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wawati SC</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>｜0           0             1  ｜</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wawati SC</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>   ———————————</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wawati SC</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>｜0           1             1  ｜</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wawati SC</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>   ———————————</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wawati SC</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>结果为：0,1,3</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Wawati SC</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+    </item>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
